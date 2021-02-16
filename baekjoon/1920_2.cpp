@@ -50,7 +50,7 @@ int main() {
 
 		result = findNumber(target, 0, N - 1);
 		cout << result << "\n";
-	}
+	} 
 
 	return 0;
 }
