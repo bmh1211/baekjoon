@@ -12,7 +12,7 @@ int findStartIndex(int target, int first, int last) {
 
 	while (first <= last) {
 		mid = (first + last) / 2;
-
+		 
 		if (first == last) {
 			if (card[mid] == target) {
 				isSuccess = true;
