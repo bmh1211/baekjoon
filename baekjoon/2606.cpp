@@ -1,4 +1,4 @@
-// 바이러스
+// 바이러스 
 #include<iostream>
 #include<queue>
 using namespace std;
