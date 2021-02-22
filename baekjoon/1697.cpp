@@ -4,7 +4,7 @@
 #include<queue>
 using namespace std;
 
-#define MAX 200001
+#define MAX 200001 // 처음위치는 100000이 최대지만 이동 가능 위치는 100000을 넘을 수 있음
 int N, K;
 int position[MAX]; // 방문하는데 걸리는 시간, 0이 아니면 방문을 했었다는 뜻이 됨
 queue<int> q;
